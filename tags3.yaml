@@ -1,9 +1,3 @@
-Resources:
-  TagBucket:
-    Type: AWS::S3::Bucket
-    Properties:
-      Tags:
-        - Key: CostCenter
-          Value: 1101
-        - Key: Owner
-          Value: 1
+template-file-path: /whono/cfngitsync/tags3.yaml
+parameters: {}
+tags: {}
